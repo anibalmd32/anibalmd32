@@ -1,1 +1,3 @@
-# bluecode32.github.io
+# BlueCode 🖥
+
+Web Developer
