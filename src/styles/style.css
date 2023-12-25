@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--dodger-blue-50);
+    background-color: var(--dodger-blue-950);
 }
 
 .container {
@@ -49,6 +49,7 @@ body {
     h2,
     h3 {
         margin: 24px 0 16px 0;
+        color: var(--dodger-blue-400);
     }
 
     & h1 {
@@ -70,6 +71,7 @@ body {
         font-size: var(--standard-size);
         font-weight: var(--standard-weight);
         line-height: 1.5;
+        color: var(--dodger-blue-50);
     }
 
     & button {
