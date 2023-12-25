@@ -1,4 +1,9 @@
+/** IMPORTS */
+/* Custom Properties */
 @import url("./variables.css");
+
+/* Components */
+@import url("../components/avatar/avatar.css");
 
 /** RESET STYLES */
 *::after,
@@ -40,6 +45,12 @@ body {
         object-fit: cover;
     }
 
+    & h1,
+    h2,
+    h3 {
+        margin: 24px 0 16px 0;
+    }
+
     & h1 {
         font-size: var(--main-title-size);
         font-weight: var(--main-title-weight);
@@ -58,6 +69,7 @@ body {
     & p {
         font-size: var(--standard-size);
         font-weight: var(--standard-weight);
+        line-height: 1.5;
     }
 
     & button {
