@@ -25,9 +25,11 @@
         & p {
             max-height: 128px;
             min-height: 128px;
+            white-space: nowrap;
+            max-width: 100%;
             overflow: hidden;
-            text-overflow: clip;
-            text-wrap: pretty;
+            text-overflow: ellipsis;
+            text-wrap: wrap;
         }
 
         & button {
