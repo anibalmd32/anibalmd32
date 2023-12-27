@@ -1,0 +1,64 @@
+.work-card {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    width: 100%;
+    margin-top: 2rem;
+
+    & .work-img {
+        width: 400px;
+        height: 230px;
+        min-width: 40%;
+        min-height: 230px;
+        border-radius: 0.8rem;
+        overflow: hidden;
+    }
+
+    & .work-desc {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+        min-height: 230px;
+        min-width: 60%;
+
+        & p {
+            max-height: 128px;
+            min-height: 128px;
+            overflow: hidden;
+            text-overflow: clip;
+            text-wrap: pretty;
+        }
+
+        & button {
+            border: none;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+            cursor: pointer;
+            background-color: var(--dodger-blue-600);
+            color: var(--dodger-blue-50);
+            transition: all 0.3s ease;
+
+            &:hover {
+                background-color: aliceblue;
+                color: var(--dodger-blue-600);
+            }
+        }
+    }
+
+    @media screen and (width < 600px) {
+        flex-direction: column;
+
+        & .work-img {
+            width: 100%;
+        }
+
+        & .work-desc {
+            width: 100%;
+
+            & button {
+                margin-top: 0.8rem;
+            }
+        }
+    }
+}
