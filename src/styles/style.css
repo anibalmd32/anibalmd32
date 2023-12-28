@@ -25,6 +25,8 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--dodger-blue-950);
+    background-image: linear-gradient(var(--dodger-blue-900), var(--dodger-blue-950));
+    background-attachment: fixed;
 }
 
 .container {
