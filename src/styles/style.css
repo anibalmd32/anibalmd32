@@ -2,9 +2,15 @@
 /* Custom Properties */
 @import url("./variables.css");
 
+/* Layouts */
+@import url("./layouts/about-sections.css");
+@import url("./layouts/contact-section.css");
+@import url("./layouts/footer.css");
+
 /* Components */
 @import url("../components/avatar/avatar.css");
 @import url("../components/work-card/work-card.css");
+@import url("../components/service-card/service-card.css");
 
 /** RESET STYLES */
 *::after,
@@ -68,6 +74,11 @@ body {
         font-size: var(--subsection-title-size);
         font-weight: var(--subsection-title-weight);
         color: var(--dodger-blue-400);
+    }
+
+    & h4 {
+        color: var(--dodger-blue-400);
+        font-weight: var(--subsection-title-weight);
     }
 
     & p {
