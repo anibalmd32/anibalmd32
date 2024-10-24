@@ -15,11 +15,11 @@ I am a Venezuelan web developer who loves creating solutions through web develop
 
 ### Basic
 
-HTML - CSS - JavaScript - NodeJS
+HTML - CSS - JavaScript - NodeJS - Python
 
 ### Frameworks
 
-React - Next - Express - Nest - TailwindCSS - Material UI
+React - Next - Express - Nest - Django - Flask, TailwindCSS - Material UI
 
 ### Other tools
 
